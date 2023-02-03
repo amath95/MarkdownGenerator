@@ -80,6 +80,7 @@ inquirer.prompt(questions)
     "## Contributions\n"+answers.contributions+" \n" +
     "## Authors \n"+ answers.author;
 
+    // Appends the content above into a file 
    appendFile('README.md', content,  (err)=>{
         if(err) throw err;
         console.log('Content Added');
