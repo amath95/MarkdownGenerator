@@ -23,11 +23,11 @@ will generate some of the work so I dont have to do it haha.
 
 ## Usage
 
-''' javascript''
+''' python''
 import inquirer from 'inquirer';
 import { appendFile } from 'fs';
 
-,,,
+'''
 
 
 ## Links 
