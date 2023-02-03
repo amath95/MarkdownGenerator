@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "mardowngenerator",
+  "version": "1.0.0",
+  "description": "Mardown automation tool",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amath Thiam",
+  "license": "ISC",
+  "dependencies": {
+    "filesystem": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.1.4"
+  }
+}
