@@ -1,8 +1,9 @@
+//Import node packages to prompt user for answers and manipulate file system on machine
 import inquirer from 'inquirer';
 import { appendFile } from 'fs';
 
 
-
+// Setup a questions object that will prompt the user in the terminal
 const questions = [
     
 {   name: "project_title",
@@ -57,6 +58,8 @@ const questions = [
 },
 ];
 
+// Prompt method will ask questions expecting the type of answers set. Answers saved in one object and accessibtle via 
+// answers.question_name.
 inquirer.prompt(questions)
 .then( answers =>{
 
