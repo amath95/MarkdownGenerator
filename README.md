@@ -2,19 +2,7 @@
 
 ## Projection Description 
 
-This is a personal implementation of a readme generator. I find that I always seem to neglect my readme files by forgetting them. One
-
-reason for that being is because it's somewhat tedious. So I figured why not create a template that I can run with my program, that
-
-will generate some of the work so I dont have to do it haha.
-
-
-
-
-
-
-
-
+This is a personal implementation of a readme generator. I find that I always seem to neglect my readme files by forgetting them. One reason for that being is because it's somewhat tedious. So I figured why not create a template that I can run with my program, that will generate some of the work so I dont have to do it haha.
 
 [Usage](#usage)
 
@@ -29,6 +17,8 @@ will generate some of the work so I dont have to do it haha.
 
 
 ## Usage
+
+If you run into issues running the code, go into the package.JSON file and add this "type":"module",
 
 Javascript
  
